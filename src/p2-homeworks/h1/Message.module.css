@@ -1,0 +1,21 @@
+.message {
+    display: flex;
+    flex-direction: row;
+}
+.ava {
+    width: 100px;
+}
+.item {
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 15px;
+}
+.userMessage {
+    color: #3e588d;
+}
+.textMessage {
+    color: white;
+}
+.timeMessage {
+    color: #c4d6d7;
+}
