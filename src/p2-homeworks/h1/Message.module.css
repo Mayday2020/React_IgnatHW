@@ -3,19 +3,27 @@
     flex-direction: row;
 }
 .ava {
-    width: 100px;
+    max-height: 50px;
+    border-radius: 50%;
+    align-self: flex-end;
 }
 .item {
-    background-color: cadetblue;
-    padding: 10px;
+    background-color: #082103;
+    padding: 15px;
+    font-size: 20px;
     border-radius: 15px;
+    border-bottom-left-radius: 0;
 }
 .userMessage {
-    color: #3e588d;
+    line-height: 15px;
+    padding-bottom: 10px;
+
+    color: #9A93BE;
 }
 .textMessage {
-    color: white;
+    color: #D5E9D7;
 }
 .timeMessage {
-    color: #c4d6d7;
+    margin-left: 20px;
+    color: #3e6038;
 }

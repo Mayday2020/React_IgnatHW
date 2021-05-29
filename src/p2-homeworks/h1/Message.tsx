@@ -12,8 +12,9 @@ const Message: React.FC<MessageType> = (props) => {
             <img className={s.ava} src={props.avatar} alt=""/>
             <div className={s.item}>
                 <div className={s.userMessage}>{props.name}</div>
-                <div className={s.textMessage}>{props.message}</div>
-                <div className={s.timeMessage}>{props.time}</div>
+                <div className={s.textMessage}>{props.message}
+                    <span className={s.timeMessage}>{props.time}</span>
+                </div>
             </div>
         </div>
     )
