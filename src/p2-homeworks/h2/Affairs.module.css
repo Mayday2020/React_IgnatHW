@@ -1,3 +1,17 @@
-.someClass {
-
+.affair {
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    max-width: 300px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.affair div {
+    flex-basis: 33%;
+}
+.affairPriority {
+    text-align: center;
+}
+.affairButton {
+    width: 50px;
 }
